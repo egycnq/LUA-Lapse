@@ -42,6 +42,9 @@ This project implements several advanced kernel exploitation techniques:
 | -------- | --------- |
 | 11.00    | ✅ Tested |
 | 12.02    | ✅ Tested |
+| 9.00     |🧪 Under Testing |
+
+"Thanks to n0llptr for adding 9.00 offsets"
 
 > 🚧 **Work in Progress**
 
