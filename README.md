@@ -3,6 +3,7 @@
 A fork of [remote_lua_loader](https://github.com/shahrilnet/remote_lua_loader) with advanced post-exploitation capabilities for PS4 firmware 11.00 and 12.02.
 
 > ⚠️ **DISCLAIMER**: This project is for educational and research purposes only. Use at your own risk.
+
 > 💡 **Note**: If you do not want to dump your kernel, just do not insert a USB device and you can use this exploit for full FTP access only.
 
 ## 🎯 What We've Achieved
