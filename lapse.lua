@@ -1634,6 +1634,12 @@ end
 
 function post_exploitation_ps4()
     local offsets = {
+        [9.00] = {
+            evf_offset = 0x7F6F27,
+            PRISON0    = 0x111F870,
+            ROOTVNODE  = 0x21EFF20,
+            target_id_offset = 0x221688D
+        },
         [11.00] = {
             evf_offset = 0x07FC26F,
             PRISON0    = 0x0111F830,
