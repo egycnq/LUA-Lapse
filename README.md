@@ -40,8 +40,8 @@ This project implements several advanced kernel exploitation techniques:
 
 | Firmware | Status    |
 | -------- | --------- |
-| 11.00    | ✅ Tested |
 | 12.02    | ✅ Tested |
+| 11.00    | ✅ Tested |
 | 9.00     |✅ Tested |
 
 "Thanks to n0llptr for adding 9.00 offsets"
