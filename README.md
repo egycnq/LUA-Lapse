@@ -35,6 +35,16 @@ This project implements several advanced kernel exploitation techniques:
 - Provides full filesystem access via FTP
 - No more restrictions on file browsing and transfers
 
+### 5. **Kernel Patching (11.00)** 🔧 **[NEW]**
+
+- ✅ Memory operation patches (bcopy, bzero, memcpy, etc.)
+- ✅ Syscall validation bypass
+- ✅ sys_setuid privilege escalation
+- ✅ vm_map_protect for RWX mappings
+- ✅ sys_dynlib_dlsym with additional patches
+- ✅ sys_kexec creation on syscall 11
+- ✅ sys_mmap RWX protections
+
 ## 📊 Supported Firmware
 
 | Firmware | Status    |
