@@ -3,6 +3,7 @@
 A fork of [remote_lua_loader](https://github.com/shahrilnet/remote_lua_loader) with advanced post-exploitation capabilities for PS4 firmware 11.00 and 12.02.
 
 > ⚠️ **DISCLAIMER**: This project is for educational and research purposes only. Use at your own risk.
+
 > 💡 **Note**: If you do not want to dump your kernel, just do not insert a USB device and you can use this exploit for full FTP access only.
 
 ## 🎯 What We've Achieved
@@ -49,8 +50,11 @@ This project implements several advanced kernel exploitation techniques:
 
 | Firmware | Status    |
 | -------- | --------- |
-| 11.00    | ✅ Tested |
 | 12.02    | ✅ Tested |
+| 11.00    | ✅ Tested |
+| 9.00     |✅ Tested |
+
+"Thanks to n0llptr for adding 9.00 offsets"
 
 > 🚧 **Work in Progress**
 
@@ -58,7 +62,7 @@ This project implements several advanced kernel exploitation techniques:
 
 ### Prerequisites
 
-1. **A PS4 with firmware 11.00 or 12.02**
+1. **A PS4 with supported firmware**
 2. **A supported LUA game** (see [remote_lua_loader](https://github.com/shahrilnet/remote_lua_loader) for list)
 3. **Remote LUA Loader** setup on your PC
 
@@ -151,6 +155,7 @@ The exploit relies on understanding PS4's kernel memory layout:
 - chendo
 - EchoStretch
 - al-azif
+- SonicPs
 - and Everyone who contributed offset documentation
 
 ## 📜 License
